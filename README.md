@@ -1,17 +1,26 @@
 # Ad Innovation Lab
 
-## The next ad-tech bottleneck may not be intelligence.
-## It may be the system intelligence has to run through.
+> ## The next ad-tech bottleneck may not be intelligence.
+> ## It may be the system intelligence has to run through.
 
 A public R&D lab for advertising decision systems, market architecture, agentic commerce, and the infrastructure required to turn better intelligence into better economic decisions.
 
-**Read this repo like a short pitch deck.** The goal is not to predict the future. The goal is to identify structural problems, propose the smallest useful mechanism, and define what evidence would prove the idea wrong.
+**[Current bets](#current-research-bets)** · **[Lab method](LAB_METHOD.md)** · **[CEO route](#a-ceo-route-through-the-lab)** · **[Pitch-page view](docs/index.html)**
+
+### `POSSIBILITY → MECHANISM → PROOF / KILL TEST → PROTOTYPE → EVIDENCE → BUILD / NARROW / KILL`
+
+| Research line | Thesis | Stage | First test |
+|---|---|---|---|
+| [**Experience Bidding**](concepts/experience-bidding.md) | Give the bidder a memory before rebuilding the market. | `ADVANCE / TEST` | Can longitudinal advertiser state improve ordinary DSP decisions without ecosystem changes? |
+| [**Experience Exchange**](concepts/experience-exchange.md) | First prove the train is constrained by the track. | `NORTH STAR · DO NOT BUILD YET` | Does the bid/impression rail materially constrain achievable decision quality? |
+| [**OpenDecisioning**](concepts/open-decisioning.md) | Let specialized intelligence contribute without forcing everyone into one brain. | `WORKING R&D` | Can one independently owned specialist input causally improve one bounded decision? |
+| [**Agentic Advertising OS**](concepts/agentic-advertising-os.md) | Autonomous execution is easier than autonomous accountability. | `CONCEPT` | Can a portable decision-and-commitment contract reduce governance or integration burden? |
 
 > **Lab rule:** no architecture earns the right to exist until a bounded experiment shows the current system is actually the constraint.
 
 ---
 
-## 01 · The thesis
+## The thesis
 
 Advertising intelligence is accelerating.
 
@@ -19,19 +28,17 @@ Models can reason across intent, commerce, creative, context, measurement, prior
 
 But much of advertising still asks that intelligence to express itself through infrastructure designed around isolated transactions, fragmented ownership, and local optimization.
 
-The lab asks a simple question:
+The lab asks a different question from “where can we add AI?”
 
 > **Where is intelligence being constrained by the system around it, and what is the smallest system change worth making?**
 
-That is a different question from “where can we add AI?”
+The point is not to predict the future. It is to identify structural problems, propose the smallest useful mechanism, and define the evidence that would prove the idea wrong.
 
 ---
 
-## 02 · How the lab works
+## How the lab works
 
 The operating sequence is intentionally unforgiving:
-
-### `POSSIBILITY → MECHANISM → PROOF / KILL TEST → PROTOTYPE → EVIDENCE → COMMIT OR KILL`
 
 | Step | Question |
 |---|---|
@@ -45,11 +52,14 @@ The operating sequence is intentionally unforgiving:
 
 **A prototype is not proof. A compelling diagram is not proof. A new standard is not proof.**
 
+[Read the lab method →](LAB_METHOD.md)
+
 ---
 
-## 03 · Current research bets
+## Current research bets
 
 ### Experience Bidding
+
 **Give the bidder a memory before rebuilding the market.**
 
 Current bidding can evaluate the next opportunity without a clean economic memory of what prior advertising has already accomplished. Experience Bidding asks what the next eligible action can still add to the advertiser’s configured goal, then uses ordinary bid/no-bid rails.
@@ -60,9 +70,8 @@ Current bidding can evaluate the next opportunity without a clean economic memor
 
 [Explore Experience Bidding →](concepts/experience-bidding.md)
 
----
-
 ### Experience Exchange
+
 **First prove the train is constrained by the track. Then consider rebuilding the railroad.**
 
 If advertising intelligence can reason across journeys, surfaces, creative, offers, timing, abstention, and heterogeneous next actions, the impression may eventually become too narrow as the universal economic unit.
@@ -75,9 +84,8 @@ The working hypothesis is an intelligence-native demand architecture that values
 
 [Explore Experience Exchange →](concepts/experience-exchange.md)
 
----
-
 ### OpenDecisioning
+
 **Let specialized intelligence contribute without forcing everyone into one brain.**
 
 The open internet contains valuable intelligence across publishers, advertisers, commerce systems, measurement providers, DSPs, SSPs, and specialists. The research question is whether independently owned intelligence can improve one bounded economic decision without centralizing raw data, models, or decision rights.
@@ -88,9 +96,8 @@ The open internet contains valuable intelligence across publishers, advertisers,
 
 [Explore OpenDecisioning →](concepts/open-decisioning.md)
 
----
-
 ### Agentic Advertising Operating System
+
 **Autonomous execution is easier than autonomous accountability.**
 
 As agents gain the ability to plan, negotiate, activate, optimize, and transact, the hard systems problem moves from interface automation to authority: who may act, for whom, under which constraints, with what evidence, and with what audit, rollback, and dispute path.
@@ -103,7 +110,7 @@ As agents gain the ability to plan, negotiate, activate, optimize, and transact,
 
 ---
 
-## 04 · What this lab deliberately does not do
+## What this lab deliberately does not do
 
 - Add “AI” to a workflow and call it a new system.
 - Design a universal protocol before proving one bounded decision.
@@ -117,13 +124,13 @@ The point is not to maximize the number of ideas. It is to reduce the number of 
 
 ---
 
-## 05 · A CEO route through the lab
+## A CEO route through the lab
 
 If you are running an advertising, commerce-media, streaming, marketplace, or AI-native business, the useful entry point is not a product pitch.
 
-Start with one problem that keeps coming back.
+**Bring the problem that keeps coming back.**
 
-The lab framework reduces it to six questions:
+The lab reduces it to six questions:
 
 1. **What is the root problem, not the feature request?**
 2. **What business invariants cannot be compromised?**
@@ -138,7 +145,7 @@ That produces a decision, not a brainstorm: **build, narrow, or kill.**
 
 ---
 
-## 06 · Why this is an operating lab, not a trend deck
+## Why this is an operating lab, not a trend deck
 
 The method comes from building advertising products and reusable platform capabilities across decisioning, streaming, DSP/SSP systems, marketplaces, measurement, data, and customer experience.
 
@@ -152,16 +159,13 @@ Otherwise the lab produces prototypes while the business keeps the same constrai
 
 ---
 
-## 07 · The portfolio
+## Portfolio rule
 
-| Research line | Core question | Stage |
-|---|---|---|
-| [Experience Bidding](concepts/experience-bidding.md) | Can a bidder make better decisions when it remembers what prior advertising already accomplished? | Advance / Test |
-| [Experience Exchange](concepts/experience-exchange.md) | Does richer intelligence eventually require a new economic unit beyond the isolated impression? | North Star / Do Not Build Yet |
-| [OpenDecisioning](concepts/open-decisioning.md) | Can independently owned intelligence compose into better decisions without centralization? | Working R&D |
-| [Agentic Advertising OS](concepts/agentic-advertising-os.md) | What governance layer is required when agents can make financially consequential advertising commitments? | Concept |
+Additional ideas move into the portfolio only when they have:
 
-Additional ideas move into the portfolio only when they have a clear mechanism, proof design, and kill condition.
+`structural problem → bounded mechanism → proof design → kill condition`
+
+A polished name, architecture diagram, or prototype is not enough.
 
 ---
 
