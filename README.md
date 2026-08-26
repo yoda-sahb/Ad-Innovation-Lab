@@ -1,22 +1,30 @@
-# Ad Innovation Lab
+<p align="center">
+  <img src="./assets/hero.svg" alt="Ad Innovation Lab — public R&D for advertising decision systems" width="100%">
+</p>
 
-> ## The next ad-tech bottleneck may not be intelligence.
-> ## It may be the system intelligence has to run through.
+<p align="center">
+  <strong><a href="#now-in-the-lab">Current Bets</a></strong> ·
+  <strong><a href="LAB_METHOD.md">Lab Method</a></strong> ·
+  <strong><a href="#a-ceo-route-through-the-lab">CEO Route</a></strong> ·
+  <strong><a href="docs/index.html">Pitch-Page View</a></strong>
+</p>
 
 A public R&D lab for advertising decision systems, market architecture, agentic commerce, and the infrastructure required to turn better intelligence into better economic decisions.
 
-**[Current bets](#current-research-bets)** · **[Lab method](LAB_METHOD.md)** · **[CEO route](#a-ceo-route-through-the-lab)** · **[Pitch-page view](docs/index.html)**
-
-### `POSSIBILITY → MECHANISM → PROOF / KILL TEST → PROTOTYPE → EVIDENCE → BUILD / NARROW / KILL`
-
-| Research line | Thesis | Stage | First test |
-|---|---|---|---|
-| [**Experience Bidding**](concepts/experience-bidding.md) | Give the bidder a memory before rebuilding the market. | `ADVANCE / TEST` | Can longitudinal advertiser state improve ordinary DSP decisions without ecosystem changes? |
-| [**Experience Exchange**](concepts/experience-exchange.md) | First prove the train is constrained by the track. | `NORTH STAR · DO NOT BUILD YET` | Does the bid/impression rail materially constrain achievable decision quality? |
-| [**OpenDecisioning**](concepts/open-decisioning.md) | Let specialized intelligence contribute without forcing everyone into one brain. | `WORKING R&D` | Can one independently owned specialist input causally improve one bounded decision? |
-| [**Agentic Advertising OS**](concepts/agentic-advertising-os.md) | Autonomous execution is easier than autonomous accountability. | `CONCEPT` | Can a portable decision-and-commitment contract reduce governance or integration burden? |
-
 > **Lab rule:** no architecture earns the right to exist until a bounded experiment shows the current system is actually the constraint.
+
+## Now in the lab
+
+| Research line | Core question | Stage | First proof |
+|---|---|---|---|
+| [**Experience Bidding**](concepts/experience-bidding.md) | Can a bidder make better decisions when it remembers what prior advertising already accomplished? | `ADVANCE / TEST` | Longitudinal advertiser state improves ordinary DSP decisions without ecosystem changes. |
+| [**Experience Exchange**](concepts/experience-exchange.md) | Does richer intelligence eventually require a new economic unit beyond the isolated impression? | `NORTH STAR · DO NOT BUILD YET` | Existing bid/impression rails materially constrain achievable decision quality. |
+| [**OpenDecisioning**](concepts/open-decisioning.md) | Can independently owned intelligence improve decisions without centralizing the underlying data, models, or rights? | `WORKING R&D` | One specialist input causally improves one bounded economic decision. |
+| [**Agentic Advertising OS**](concepts/agentic-advertising-os.md) | What governance layer is required when agents can make financially consequential advertising commitments? | `CONCEPT` | A portable decision-and-commitment contract reduces governance or integration burden. |
+
+The operating sequence is simple by design:
+
+`POSSIBILITY → MECHANISM → PROOF / KILL TEST → PROTOTYPE → EVIDENCE → BUILD / NARROW / KILL`
 
 ---
 
@@ -38,8 +46,6 @@ The point is not to predict the future. It is to identify structural problems, p
 
 ## How the lab works
 
-The operating sequence is intentionally unforgiving:
-
 | Step | Question |
 |---|---|
 | **Possibility** | What structural problem or opportunity will still matter if the current product cycle changes? |
@@ -56,9 +62,7 @@ The operating sequence is intentionally unforgiving:
 
 ---
 
-## Current research bets
-
-### Experience Bidding
+## Experience Bidding
 
 **Give the bidder a memory before rebuilding the market.**
 
@@ -70,7 +74,7 @@ Current bidding can evaluate the next opportunity without a clean economic memor
 
 [Explore Experience Bidding →](concepts/experience-bidding.md)
 
-### Experience Exchange
+## Experience Exchange
 
 **First prove the train is constrained by the track. Then consider rebuilding the railroad.**
 
@@ -84,7 +88,7 @@ The working hypothesis is an intelligence-native demand architecture that values
 
 [Explore Experience Exchange →](concepts/experience-exchange.md)
 
-### OpenDecisioning
+## OpenDecisioning
 
 **Let specialized intelligence contribute without forcing everyone into one brain.**
 
@@ -96,7 +100,7 @@ The open internet contains valuable intelligence across publishers, advertisers,
 
 [Explore OpenDecisioning →](concepts/open-decisioning.md)
 
-### Agentic Advertising Operating System
+## Agentic Advertising Operating System
 
 **Autonomous execution is easier than autonomous accountability.**
 
