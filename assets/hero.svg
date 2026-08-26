@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Ad Innovation Lab</title>
+  <desc id="desc">The next ad-tech bottleneck may not be intelligence. It may be the system intelligence has to run through.</desc>
+  <rect width="1200" height="460" rx="28" fill="#0d1117"/>
+  <path d="M820 0h380v460H930c-110-96-150-205-110-327 22-66 22-111 0-133Z" fill="#111820"/>
+  <text x="72" y="102" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">PUBLIC R&amp;D LAB</text>
+  <text x="72" y="190" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="66" font-weight="800">AD INNOVATION LAB</text>
+  <text x="72" y="246" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="28">The next ad-tech bottleneck may not be intelligence.</text>
+  <text x="72" y="286" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="30" font-weight="700">It may be the system intelligence has to run through.</text>
+  <line x1="72" y1="342" x2="1070" y2="342" stroke="#30363d" stroke-width="2"/>
+  <text x="72" y="389" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="18">POSSIBILITY  →  MECHANISM  →  PROOF  →  PROTOTYPE  →  EVIDENCE  →  BUILD / NARROW / KILL</text>
+</svg>
