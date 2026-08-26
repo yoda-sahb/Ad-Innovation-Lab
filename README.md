@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong><a href="#now-in-the-lab">Current Bets</a></strong> ·
+  <strong><a href="concepts/README.md">Research Portfolio</a></strong> ·
   <strong><a href="LAB_METHOD.md">Lab Method</a></strong> ·
   <strong><a href="#a-ceo-route-through-the-lab">CEO Route</a></strong> ·
   <strong><a href="docs/index.html">Pitch-Page View</a></strong>
@@ -46,6 +46,8 @@ The point is not to predict the future. It is to identify structural problems, p
 
 ## How the lab works
 
+The operating sequence is intentionally unforgiving:
+
 | Step | Question |
 |---|---|
 | **Possibility** | What structural problem or opportunity will still matter if the current product cycle changes? |
@@ -62,7 +64,9 @@ The point is not to predict the future. It is to identify structural problems, p
 
 ---
 
-## Experience Bidding
+## Current research bets
+
+### Experience Bidding
 
 **Give the bidder a memory before rebuilding the market.**
 
@@ -74,7 +78,7 @@ Current bidding can evaluate the next opportunity without a clean economic memor
 
 [Explore Experience Bidding →](concepts/experience-bidding.md)
 
-## Experience Exchange
+### Experience Exchange
 
 **First prove the train is constrained by the track. Then consider rebuilding the railroad.**
 
@@ -88,7 +92,7 @@ The working hypothesis is an intelligence-native demand architecture that values
 
 [Explore Experience Exchange →](concepts/experience-exchange.md)
 
-## OpenDecisioning
+### OpenDecisioning
 
 **Let specialized intelligence contribute without forcing everyone into one brain.**
 
@@ -100,7 +104,7 @@ The open internet contains valuable intelligence across publishers, advertisers,
 
 [Explore OpenDecisioning →](concepts/open-decisioning.md)
 
-## Agentic Advertising Operating System
+### Agentic Advertising Operating System
 
 **Autonomous execution is easier than autonomous accountability.**
 
@@ -170,6 +174,8 @@ Additional ideas move into the portfolio only when they have:
 `structural problem → bounded mechanism → proof design → kill condition`
 
 A polished name, architecture diagram, or prototype is not enough.
+
+[Explore the full research portfolio →](concepts/README.md)
 
 ---
 
