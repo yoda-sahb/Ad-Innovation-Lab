@@ -1,110 +1,73 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ad Innovation Lab — personal independent ad-tech R&D notebook" width="100%">
+  <img src="./assets/hero.svg" alt="Ad Innovation Lab — personal independent ad-tech R&D" width="100%">
 </p>
 
 <p align="center">
-  <strong><a href="concepts/IDEA_RADAR.md">Idea Radar</a></strong> ·
-  <strong><a href="concepts/README.md">Deep Dives</a></strong> ·
+  <strong><a href="concepts/README.md">Research Themes</a></strong> ·
   <strong><a href="LAB_METHOD.md">Lab Method</a></strong> ·
   <strong><a href="docs/index.html">Visual View</a></strong>
 </p>
 
-> **This is my personal, independent, company-agnostic R&D notebook.**
+> **This is the public surface of my personal, independent, company-agnostic Ad Tech R&D lab.**
 >
-> It is not employer work, client work, a company roadmap, or a representation of any company's strategy. The ideas here are things I explore on my own: some practical, some speculative, some intentionally wild, and many likely to be wrong.
+> It is not the underlying lab notebook, an employer roadmap, client work, or a complete inventory of ideas in development.
 
-The subject is advertising: decision systems, market architecture, AI-native commerce, agentic infrastructure, customer experience, and whatever becomes interesting when better intelligence runs into old rails.
+The public goal is simple: show how I think about hard advertising systems problems without publishing the implementation details of the ideas themselves.
 
-**Wild is allowed. Confusing an idea with evidence is not.**
+## What is public
 
-## Start with the radar
+The public layer includes:
 
-The [**Idea Radar**](concepts/IDEA_RADAR.md) is the broad notebook. It contains ideas at very different distances from reality and labels them by:
+- the kinds of structural problems I find interesting;
+- the method I use to pressure-test ideas;
+- high-level research questions and market observations;
+- selected sanitized concept summaries when I deliberately choose to publish them; and
+- the evidence discipline I use to separate an interesting thesis from something worth building.
 
-- **stage** — test now, incubate, research, moonshot, or anti-portfolio;
-- **craziness** — how much external market structure has to change; and
-- **5-year research prior** — a deliberately rough probability that some useful product/system in that direction matters within roughly five years.
+[Browse the public research themes →](concepts/README.md)
 
-The percentages are not forecasts. They are priors meant to move when evidence changes.
+## What stays private
 
-## Deep dives
+The working lab is private by default. That includes:
 
-Only a few ideas currently earn full pages:
+- detailed mechanisms and architectures;
+- algorithms, state models, schemas, decision logic, and implementation primitives;
+- prototypes and source code that expose the mechanism;
+- detailed experiment designs and internal kill-test logic;
+- prior-art and patent/claim analysis;
+- company-specific overlays, assumptions, and pitch material;
+- unpublished concept inventory and research backlog; and
+- restricted prior-employer or confidential material.
 
-| Research line | Current posture | Craziness | Core question |
-|---|---|---:|---|
-| [**Experience Bidding**](concepts/experience-bidding.md) | `TEST NOW` | `2/5` | Can a bidder make better decisions when it remembers what prior advertising already accomplished? |
-| [**OpenDecisioning**](concepts/open-decisioning.md) | `INCUBATE / TEST` | `3/5` | Can independently owned intelligence improve one bounded decision without centralizing the underlying data or model? |
-| [**Agentic Advertising OS**](concepts/agentic-advertising-os.md) | `INCUBATE` | `3/5` | What authority and accountability layer is required when agents can make financially consequential commitments? |
-| [**Experience Exchange**](concepts/experience-exchange.md) | `MOONSHOT · DO NOT BUILD YET` | `5/5` | Does richer intelligence eventually require an economic unit beyond the isolated impression? |
+A public artifact is a deliberately sanitized derivative. It is not the source of truth for the underlying R&D.
 
-[Browse the full deep-dive portfolio →](concepts/README.md)
+## Public research themes
+
+The lab currently spends time around problem classes such as:
+
+| Theme | Public question |
+|---|---|
+| **Decisioning across time** | What changes when an advertising decision can account for what prior advertising has already accomplished? |
+| **Distributed intelligence** | How can independently owned intelligence improve decisions without requiring one system to own all of the underlying data or models? |
+| **Agent authority and accountability** | What governance is required when software agents can make financially consequential advertising decisions? |
+| **Market and transaction rails** | When does better intelligence fit inside existing advertising rails, and when do the rails themselves become the constraint? |
+
+These are research territories, not a public inventory of products or architectures.
 
 ## The lab rule
 
-A wild idea can enter the notebook for almost any reason.
+A serious idea has to survive more than a good story:
 
-A serious concept gets held to a higher standard:
+`PROBLEM → BOUNDARY → MECHANISM → PROOF → KILL TEST → BUILD / HOLD / KILL`
 
-`IDEA → SYSTEM BOUNDARY → MECHANISM → PROOF → KILL TEST → BUILD / HOLD / KILL`
-
-No architecture earns the right to exist merely because it is interesting. If the current system can absorb the value, the new architecture loses.
-
-## What I am exploring
-
-The radar currently spans questions such as:
-
-- longitudinal economic memory in bidding;
-- decision receipts and causal evidence;
-- signal-owner decisioning;
-- sponsored decision surfaces inside AI experiences;
-- customer-attention and abstention economics;
-- agent authority and governance;
-- cross-platform capital allocation;
-- portable decision authority;
-- competence routing for specialist intelligence;
-- cross-platform experience governance;
-- experience-native demand rails;
-- open decision networks;
-- agent-to-agent media markets; and
-- several ideas that are probably too weird to work but are useful thought experiments anyway.
-
-[Open the Idea Radar →](concepts/IDEA_RADAR.md)
-
-## How an idea graduates
-
-A radar item gets a dedicated concept page only when it has at least:
-
-1. a persistent problem;
-2. an explicit system boundary;
-3. a plausible mechanism;
-4. a bounded experiment; and
-5. a kill condition.
-
-That keeps the repository free to be imaginative without pretending every thought is a product thesis.
-
-## Lab method
-
-For ideas that graduate, I use a simple sequence:
-
-| Step | Question |
-|---|---|
-| **Possibility** | What persistent problem or opportunity might exist? |
-| **Boundary** | What must change, and what should stay untouched? |
-| **Mechanism** | What is the smallest causal change that could create value? |
-| **Proof** | What experiment separates value from plausibility? |
-| **Kill test** | What result makes the idea lose? |
-| **Prototype** | What is the cheapest artifact that resolves a real uncertainty? |
-| **Decision** | Build, narrow, hold, or kill. |
+The public site explains that method. The detailed mechanism, proof design, and implementation stay private unless they are explicitly cleared for publication.
 
 [Read the lab method →](LAB_METHOD.md)
 
-## Public / personal boundary
+## Publication rule
 
-Everything in this repository is published as **personal, independent research**.
+**Private is the default.** A concept or detail becomes eligible for public release only after an explicit portability/IP review clears the specific public version. `REVIEW` and `RESTRICTED` material stay private. Even `PORTABLE` material is published only as a deliberately chosen derivative, not automatically.
 
-The repository deliberately excludes confidential implementation details, restricted prior-employer material, company-specific plans, and claims that any concept is deployed, adopted, patented, or endorsed by a company. References to existing products or market behavior are research context only.
+Earlier versions of this repository were more detailed. Changing the current public surface does not make prior public disclosure retroactively private; this policy governs what remains exposed and what is published going forward.
 
-The deep dives are research hypotheses. The radar is even looser: it is where unfinished and improbable ideas are allowed to live before they deserve serious architecture.
-
-**The point is not to be right early. The point is to make the assumptions visible enough to become less wrong.**
+**Show the quality of the thinking. Keep the intellectual inventory protected.**
