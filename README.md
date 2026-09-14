@@ -3,71 +3,109 @@
 </p>
 
 <p align="center">
-  <strong><a href="concepts/README.md">Research Themes</a></strong> ·
-  <strong><a href="LAB_METHOD.md">Lab Method</a></strong> ·
-  <strong><a href="docs/index.html">Visual View</a></strong>
+  <strong>Rami M. Elsawah</strong><br>
+  Independent Ad Tech product and systems R&D
 </p>
 
-> **This is the public surface of my personal, independent, company-agnostic Ad Tech R&D lab.**
->
-> It is not the underlying lab notebook, an employer roadmap, client work, or a complete inventory of ideas in development.
+## Building the next decision systems for advertising
 
-The public goal is simple: show how I think about hard advertising systems problems without publishing the implementation details of the ideas themselves.
+I use this lab to explore **long-half-life advertising problems**: problems that are likely to keep coming back until the underlying system changes.
 
-## What is public
+The recurring question is not “what feature should we add?” It is **where does the decision actually belong, what information should it use, who has authority, and how do we prove the new system creates incremental value?**
 
-The public layer includes:
+## Research themes
 
-- the kinds of structural problems I find interesting;
-- the method I use to pressure-test ideas;
-- high-level research questions and market observations;
-- selected sanitized concept summaries when I deliberately choose to publish them; and
-- the evidence discipline I use to separate an interesting thesis from something worth building.
-
-[Browse the public research themes →](concepts/README.md)
-
-## What stays private
-
-The working lab is private by default. That includes:
-
-- detailed mechanisms and architectures;
-- algorithms, state models, schemas, decision logic, and implementation primitives;
-- prototypes and source code that expose the mechanism;
-- detailed experiment designs and internal kill-test logic;
-- prior-art and patent/claim analysis;
-- company-specific overlays, assumptions, and pitch material;
-- unpublished concept inventory and research backlog; and
-- restricted prior-employer or confidential material.
-
-A public artifact is a deliberately sanitized derivative. It is not the source of truth for the underlying R&D.
-
-## Public research themes
-
-The lab currently spends time around problem classes such as:
-
-| Theme | Public question |
+| Theme | Question |
 |---|---|
-| **Decisioning across time** | What changes when an advertising decision can account for what prior advertising has already accomplished? |
-| **Distributed intelligence** | How can independently owned intelligence improve decisions without requiring one system to own all of the underlying data or models? |
-| **Agent authority and accountability** | What governance is required when software agents can make financially consequential advertising decisions? |
-| **Market and transaction rails** | When does better intelligence fit inside existing advertising rails, and when do the rails themselves become the constraint? |
+| **Decisioning across time** | What changes when the system remembers what advertising has already accomplished instead of valuing every opportunity in isolation? |
+| **Distributed intelligence** | Can independently owned intelligence improve a decision without forcing everyone to centralize their data, models, or authority? |
+| **Agent authority** | What has to be true before autonomous agents can make financially consequential advertising decisions? |
+| **AI-native commerce** | How can paid discovery participate in an AI-mediated decision without corrupting the organic reasoning that earned the user’s trust? |
 
-These are research territories, not a public inventory of products or architectures.
+## Selected innovations
 
-## The lab rule
+### 01 · Experience Bidding
+**Product hypothesis · ADVANCE / TEST**
 
-A serious idea has to survive more than a good story:
+> **Give the bidder a memory.**
 
-`PROBLEM → BOUNDARY → MECHANISM → PROOF → KILL TEST → BUILD / HOLD / KILL`
+Most bidding systems are very good at valuing the opportunity in front of them. The harder question is what that opportunity is worth **after accounting for what earlier advertising has already accomplished toward the advertiser’s goal**.
 
-The public site explains that method. The detailed mechanism, proof design, and implementation stay private unless they are explicitly cleared for publication.
+Experience Bidding explores a longitudinal decision layer inside the bidder: use the advertiser’s existing goal plus prior advertising progress to estimate what the **next eligible action can still add**, then return an ordinary bid, adjusted bid, or no-bid through today’s auction rails.
 
-[Read the lab method →](LAB_METHOD.md)
+**System shift:**
 
-## Publication rule
+`isolated impression value → journey-aware marginal value`
 
-**Private is the default.** A concept or detail becomes eligible for public release only after an explicit portability/IP review clears the specific public version. `REVIEW` and `RESTRICTED` material stay private. Even `PORTABLE` material is published only as a deliberately chosen derivative, not automatically.
+**What has to be proven:** Better advertiser outcomes versus ordinary bidding without requiring a new publisher workflow, new exchange protocol, or new advertiser journey object.
 
-Earlier versions of this repository were more detailed. Changing the current public surface does not make prior public disclosure retroactively private; this policy governs what remains exposed and what is published going forward.
+---
 
-**Show the quality of the thinking. Keep the intellectual inventory protected.**
+### 02 · OpenDecisioning
+**R&D concept · bounded product experiment justified**
+
+> **Let specialized intelligence contribute without requiring one company to own everything.**
+
+The open internet already moves transactions across companies. The harder problem is whether it can compose **independently owned intelligence** into a governed decision while the rights holder keeps authority over what is allowed.
+
+OpenDecisioning explores a bounded decision layer where a publisher, commerce system, measurement provider, buyer, or other specialist can contribute decision-relevant intelligence without handing over its raw data or model.
+
+**System shift:**
+
+`transaction interoperability → decision interoperability`
+
+**What has to be proven:** One independently owned specialist signal can causally improve one bounded economic decision while permissions, fallback behavior, and existing execution rails remain intact.
+
+---
+
+### 03 · Agentic Advertising Operating System
+**R&D concept**
+
+> **Authority before autonomy.**
+
+Agents can increasingly plan, negotiate, activate, optimize, and transact. Execution is becoming easier. **Governed authority is not.**
+
+This concept asks what an advertising system needs when software can commit budget, inventory, data access, or contractual actions on behalf of different principals with different objectives.
+
+The public thesis is simple: autonomous execution needs explicit mandates, constraints, decision rights, evidence, auditability, escalation, and rollback. A smarter agent is not a substitute for a governed market participant.
+
+**System shift:**
+
+`agent can act → agent is authorized, bounded, observable, and accountable`
+
+**What has to be proven:** A shared governance layer reduces real integration and control burden enough to justify existing alongside platform-specific APIs and policies.
+
+---
+
+### 04 · AI-Native Commercial Surfaces
+**R&D concept**
+
+> **Sponsored decisions without paid influence over organic reasoning.**
+
+Conversational AI is becoming a discovery and transaction surface. That creates a new advertising boundary: when should commercial options appear, what context may be used, how is sponsorship separated from the organic answer, and how is product truth verified?
+
+The concept explores a sponsored-decision architecture where the assistant first determines the user’s need independently, then evaluates whether paid discovery can help **without allowing advertiser incentives to rewrite the organic answer**.
+
+**System shift:**
+
+`ads beside content → governed commercial participation inside a decision journey`
+
+**What has to be proven:** Paid discovery can improve useful outcomes without degrading trust, privacy, truthfulness, or task completion.
+
+## The map
+
+```mermaid
+flowchart LR
+    A["Isolated ad decisions"] --> B["Experience Bidding<br/>Decisioning across time"]
+    C["Fragmented intelligence"] --> D["OpenDecisioning<br/>Distributed decision intelligence"]
+    E["Autonomous execution"] --> F["Agentic Advertising OS<br/>Authority + accountability"]
+    G["AI-mediated discovery"] --> H["AI-Native Commercial Surfaces<br/>Sponsored decision boundary"]
+```
+
+## What connects the work
+
+The concepts differ, but the design pattern is consistent:
+
+**Find the structural constraint → move the decision to the right system layer → preserve decision rights → use the minimum new machinery → prove incremental value → kill the idea if the evidence does not support it.**
+
+This is a **personal, independent, company-agnostic R&D lab**. The concepts above are public research derivatives and working hypotheses, not employer roadmaps or claims that the systems have been deployed. Detailed mechanisms, prototypes, prior-art work, and implementation designs remain private unless deliberately cleared for publication.
