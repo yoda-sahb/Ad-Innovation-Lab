@@ -1,10 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Ad Innovation Lab — personal independent ad-tech R&D" width="100%">
-</p>
-
-<p align="center">
-  <strong>Rami M. Elsawah</strong><br>
-  Independent Ad Tech product and systems R&D
+  <img src="./assets/hero.svg" alt="Ad Innovation Lab by Rami M. Elsawah — personal independent ad-tech R&D" width="100%">
 </p>
 
 ## Building the next decision systems for advertising
